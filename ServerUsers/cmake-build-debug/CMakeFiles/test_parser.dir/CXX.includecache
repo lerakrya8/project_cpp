@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/main.cpp
+iostream
+-
+boost/asio.hpp
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/json_parser.hpp
+-
+/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/UsersDatabase.h
+-
+
+/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/UsersDatabase.h
+iostream
+-
+string
+-
+map
+-
+pqxx/pqxx
+-
+
