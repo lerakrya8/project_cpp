@@ -9,6 +9,7 @@
 #include <boost/bind.hpp>
 #include <boost/asio.hpp>
 #include "../includes/Session.h"
+#include "../includes/UsersDatabase.h"
 
 using boost::asio::ip::tcp;
 
@@ -25,7 +26,7 @@ private:
 
     boost::asio::io_service& io_service_;
     tcp::acceptor acceptor_;
-//    UsersDatabase data_base_;
+    UsersDatabase data_base_;
 };
 
 #endif //SERVERUSERS_SERVER_H

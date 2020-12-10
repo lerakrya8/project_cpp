@@ -5,31 +5,87 @@
 		<Option title="ServerUsers"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_db">
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_db" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_db"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_db/fast">
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_db" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_SYSTEM_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add option="-DBOOST_THREAD_DYN_LINK"/>
+					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
+					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_db/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -39,6 +95,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -48,15 +105,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client/fast">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -66,6 +123,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -75,15 +133,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ServerUsers">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/libServerUsers.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/libServerUsers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -93,6 +151,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -102,15 +161,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServerUsers"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServerUsers"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ServerUsers/fast">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/libServerUsers.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/libServerUsers.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -120,6 +179,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -129,25 +189,25 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServerUsers/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 ServerUsers/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_parser">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/test_parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -157,6 +217,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -166,15 +227,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_parser"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_parser"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_parser/fast">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/test_parser" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_parser" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -184,6 +245,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -193,15 +255,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_parser/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_parser/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="echo_server">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/echo_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/echo_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -211,6 +273,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -220,15 +283,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="echo_server/fast">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/echo_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/echo_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -238,6 +301,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -247,15 +311,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 echo_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_server">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -265,6 +329,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -274,15 +339,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test_server/fast">
-				<Option output="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/test_server" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug"/>
+				<Option output="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/test_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -292,6 +357,7 @@
 					<Add option="-DBOOST_THREAD_DYN_LINK"/>
 					<Add option="-DBOOST_ATOMIC_DYN_LINK"/>
 					<Add option="-DBOOST_REGEX_DYN_LINK"/>
+					<Add directory="/project/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -301,114 +367,117 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lerakrya/Загрузки/Telegram\ Desktop/ServerUsers/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/client.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/client.cpp">
 			<Option target="client"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/echo_server.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/echo_server.cpp">
 			<Option target="echo_server"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/main.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/main.cpp">
 			<Option target="test_parser"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/HandlerUser.h">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/includes/HandlerUser.h">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/Server.h">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/includes/Server.h">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/Session.h">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/includes/Session.h">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/UsersDatabase.h">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/includes/UsersDatabase.h">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/HandlerUser.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/HandlerUser.cpp">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Server.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Server.cpp">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Session.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Session.cpp">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/UsersDatabase.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/UsersDatabase.cpp">
 			<Option target="ServerUsers"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/test_server.cpp">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/test_db.cpp">
+			<Option target="test_db"/>
+		</Unit>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/test_server.cpp">
 			<Option target="test_server"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/CMakeLists.txt">
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/boost_system-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_system-1.71.0/libboost_system-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_system-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/boost_thread-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_thread-1.71.0/libboost_thread-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_thread-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/boost_atomic-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_atomic-1.71.0/libboost_atomic-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_atomic-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/boost_regex-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
 		</Unit>
-		<Unit filename="/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
+		<Unit filename="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_regex-1.71.0/libboost_regex-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_regex-1.71.0\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

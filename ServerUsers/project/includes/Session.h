@@ -10,20 +10,20 @@
 #include <iostream>
 #include <boost/bind.hpp>
 #include <boost/asio.hpp>
-//#include "UsersDatabase.h"
+#include "UsersDatabase.h"
 
 using boost::asio::ip::tcp;
 
 class Session
 {
 public:
-//    Session(boost::asio::io_service& io_service, UsersDatabase& data_base)
-//            : socket_(io_service), io_service_(io_service), data_base_(data_base)
-//    {}
-
-    Session(boost::asio::io_service& io_service)
-            : socket_(io_service), io_service_(io_service)
+    Session(boost::asio::io_service& io_service, UsersDatabase& data_base)
+            : socket_(io_service), io_service_(io_service), data_base_(data_base)
     {}
+
+//    Session(boost::asio::io_service& io_service)
+//            : io_service_(io_service), socket_(io_service)
+//    {}
 
     tcp::socket& socket();
 
@@ -41,7 +41,7 @@ private:
     tcp::socket socket_;
     enum { max_length = 1024 };
     char data_[max_length];
-//    UsersDatabase& data_base_;
+    UsersDatabase& data_base_;
 };
 
 

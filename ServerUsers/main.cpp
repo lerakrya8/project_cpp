@@ -84,8 +84,8 @@ void  handle_request(string& request) {
 
 int main(int argc, char* argv[])
 {
-   string example = "{\n"
-                    "  \"Id\": 5,\n"
+   string example = "5\n0\ncreate\n{\n"
+                    "  \"id\": 5,\n"
                     "  \"firstname\": \"lera\",\n"
                     "  \"lastname\": \"guseva\",\n"
                     "  \"nickname\": \"lerakrya\",\n"

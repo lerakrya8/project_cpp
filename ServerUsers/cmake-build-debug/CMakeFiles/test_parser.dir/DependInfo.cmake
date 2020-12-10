@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/main.cpp" "/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles/test_parser.dir/main.cpp.o"
+  "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/main.cpp" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles/test_parser.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,11 +19,12 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/project/includes"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles/ServerUsers.dir/DependInfo.cmake"
+  "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles/ServerUsers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

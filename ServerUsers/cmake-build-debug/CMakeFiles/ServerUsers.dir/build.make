@@ -63,10 +63,10 @@ RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers
+CMAKE_SOURCE_DIR = "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ServerUsers.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/ServerUsers.dir/flags.make
 
 CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o: CMakeFiles/ServerUsers.dir/flags.make
 CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o: ../project/src/Session.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o -c /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Session.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/Session.cpp.o -c "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Session.cpp"
 
 CMakeFiles/ServerUsers.dir/project/src/Session.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerUsers.dir/project/src/Session.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Session.cpp > CMakeFiles/ServerUsers.dir/project/src/Session.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Session.cpp" > CMakeFiles/ServerUsers.dir/project/src/Session.cpp.i
 
 CMakeFiles/ServerUsers.dir/project/src/Session.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerUsers.dir/project/src/Session.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Session.cpp -o CMakeFiles/ServerUsers.dir/project/src/Session.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Session.cpp" -o CMakeFiles/ServerUsers.dir/project/src/Session.cpp.s
 
 CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o: CMakeFiles/ServerUsers.dir/flags.make
 CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o: ../project/src/HandlerUser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o -c /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/HandlerUser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.o -c "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/HandlerUser.cpp"
 
 CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/HandlerUser.cpp > CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/HandlerUser.cpp" > CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.i
 
 CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/HandlerUser.cpp -o CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/HandlerUser.cpp" -o CMakeFiles/ServerUsers.dir/project/src/HandlerUser.cpp.s
 
 CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o: CMakeFiles/ServerUsers.dir/flags.make
 CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o: ../project/src/Server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o -c /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o -c "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Server.cpp"
 
 CMakeFiles/ServerUsers.dir/project/src/Server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerUsers.dir/project/src/Server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Server.cpp > CMakeFiles/ServerUsers.dir/project/src/Server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Server.cpp" > CMakeFiles/ServerUsers.dir/project/src/Server.cpp.i
 
 CMakeFiles/ServerUsers.dir/project/src/Server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerUsers.dir/project/src/Server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/Server.cpp -o CMakeFiles/ServerUsers.dir/project/src/Server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/Server.cpp" -o CMakeFiles/ServerUsers.dir/project/src/Server.cpp.s
 
 CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o: CMakeFiles/ServerUsers.dir/flags.make
 CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o: ../project/src/UsersDatabase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o -c /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/UsersDatabase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o -c "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/UsersDatabase.cpp"
 
 CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/UsersDatabase.cpp > CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/UsersDatabase.cpp" > CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.i
 
 CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/src/UsersDatabase.cpp -o CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/project/src/UsersDatabase.cpp" -o CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.s
 
 # Object files for target ServerUsers
 ServerUsers_OBJECTS = \
@@ -145,7 +145,7 @@ libServerUsers.a: CMakeFiles/ServerUsers.dir/project/src/Server.cpp.o
 libServerUsers.a: CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.o
 libServerUsers.a: CMakeFiles/ServerUsers.dir/build.make
 libServerUsers.a: CMakeFiles/ServerUsers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libServerUsers.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libServerUsers.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ServerUsers.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ServerUsers.dir/link.txt --verbose=$(VERBOSE)
 
@@ -159,6 +159,6 @@ CMakeFiles/ServerUsers.dir/clean:
 .PHONY : CMakeFiles/ServerUsers.dir/clean
 
 CMakeFiles/ServerUsers.dir/depend:
-	cd /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles/ServerUsers.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles/ServerUsers.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ServerUsers.dir/depend
 

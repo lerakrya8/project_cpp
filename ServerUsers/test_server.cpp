@@ -2,7 +2,7 @@
 // Created by lerakrya on 09.12.2020.
 //
 
-#include "/home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/project/includes/Server.h"
+#include "project/includes/Server.h"
 
 int main(int argc, char* argv[])
 {
@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 
         boost::asio::io_service io_service;
 
-        Server s(io_service, 8081);
+        Server s(io_service, 8082);
 
         io_service.run();
     }

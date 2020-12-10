@@ -21,11 +21,11 @@ using boost::asio::ip::tcp;
     void Server::start_accept()
     {
 //        Session* new_session = new Session(io_service_, data_base_);
-        Session* new_session = new Session(io_service_);
+        Session* new_session = new Session(io_service_, data_base_);
 
         std::cout << "Обрабатываем1" << std::endl;
 
-        acceptor_.accept();
+//        acceptor_.accept();
 //
         acceptor_.async_accept(new_session->socket(),
                                boost::bind(&Server::handle_accept, this, new_session,

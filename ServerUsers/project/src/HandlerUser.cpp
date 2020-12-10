@@ -27,6 +27,8 @@ std::map<string, string> HandlerUser::parser_json(std::stringstream& request) {
     return {};
 }
 void HandlerUser::handle_request(string& request) {
+
+	std::cout << "handler" << std::endl;
     std::stringstream stream_request(request);
     int number_request, priority;
     string method;
@@ -36,47 +38,84 @@ void HandlerUser::handle_request(string& request) {
     std::map<string, string> parse_request = parser_json(stream_request);
     string str;
     if (method == "create") {
-        create_user(parse_request);
+        create_user(parse_request, number_request);
     }
     else if (method == "data") {
-        auto id = std::atoi(parse_request["id"].c_str());
-        data_user(id);
+        auto id = std::atoi(parse_request["Aid"].c_str());
+        data_user(id, number_request);
     }
     else if (method == "all") {
-        all_users();
+        all_users(number_request);
     }
-//    else if (method == "delete") {
-//        auto id = std::atoi(parse_request["id"].c_str());
-//        delete_user(id);
-//    }
+    else if (method == "delete") {
+        int id = std::atoi(parse_request["Aid"].c_str());
+        std::cout << parse_request["Aid"]<< std::endl;
+        delete_user(id, number_request);
+    }
     else if (method == "change") {
-        change_user_data(parse_request);
+        change_user_data(parse_request, number_request);
     }
 }
-void HandlerUser::create_user(std::map<string, string>& data_user) {
-//    data_base_.insert_user(data_user);
-//    int result = data_base_.insert_user(data_user);
-//    string str_result = std::to_string(result);
-    session_.send_answer("create");
+
+void HandlerUser::create_user(std::map<string, string>& data_user, int number_request) {
+    int result = data_base_.insert_user(data_user);
+    string str_result = std::to_string(number_request);
+    if (result == 200) {
+        str_result += "{\n \"response\": \"success create user\"\n}";
+    }
+    else {
+        str_result += "{\n \"response\": \"fail create user\"\n}";
+    }
+    session_.send_answer(str_result);
 }
-void HandlerUser::data_user(int id) {
-//    data_base_.data_user(id);
-//    string result = data_base_.data_user(id);
-    session_.send_answer("data");
+
+void HandlerUser::data_user(int id, int number_request) {
+    data_base_.data_user(id);
+    string result = std::to_string(number_request) + "\n";
+    string new_result = data_base_.data_user(id);
+    if(result == "No user") {
+        result += "{\n \"response\": \"fail data user\"\n}";
+    } else {
+        result += new_result;
+    }
+    session_.send_answer(result);
 }
-void HandlerUser::all_users() {
-//    data_base_.all_users();
-//    string result = data_base_.all_users();
-    session_.send_answer("all_users");
+
+void HandlerUser::all_users(int number_request) {
+    data_base_.all_users();
+    string result = std::to_string(number_request) + "\n";
+    string new_result = data_base_.all_users();
+    if(result == "No users") {
+        result += "{\n \"response\": \"fail all users\"\n}";
+    } else {
+        result += new_result;
+    }
+    session_.send_answer(result);
 }
-//void HandlerUser::delete_user(int id) {
-//    data_base_.delete_user(id);
-//}
-void HandlerUser::change_user_data(std::map<string, string>& user_data) {
-//    data_base_.update_data(user_data);
-//    int result = data_base_.update_data(user_data);
-//    string str_result = std::to_string(result);
-    session_.send_answer("update");
+
+void HandlerUser::delete_user(int id, int number_request) {
+    int result = data_base_.delete_user(id);
+    string str_result = std::to_string(number_request);
+    if (result == 200) {
+        str_result += "{\n \"response\": \"success delete user\"\n}";
+    }
+    else {
+        str_result += "{\n \"response\": \"fail delete user\"\n}";
+    }
+    session_.send_answer(str_result);
+}
+
+
+void HandlerUser::change_user_data(std::map<string, string>& user_data, int number_request) {
+    int result = data_base_.update_data(user_data);
+    string str_result = std::to_string(number_request);
+    if (result == 200) {
+        str_result += "{\n \"response\": \"success update user\"\n}";
+    }
+    else {
+        str_result += "{\n \"response\": \"fail update user\"\n}";
+    }
+    session_.send_answer(str_result);
 }
 
 

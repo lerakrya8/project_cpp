@@ -68,10 +68,10 @@ RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers
+CMAKE_SOURCE_DIR = "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lerakrya/Документы/GitHub/noskool-server_users/ServerUsers/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/lerakrya/Загрузки/Telegram Desktop/ServerUsers/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named test_db
+
+# Build rule for target.
+test_db: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_db
+.PHONY : test_db
+
+# fast build rule for target.
+test_db/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_db.dir/build.make CMakeFiles/test_db.dir/build
+.PHONY : test_db/fast
 
 #=============================================================================
 # Target rules for targets named client
@@ -384,6 +397,33 @@ project/src/UsersDatabase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ServerUsers.dir/build.make CMakeFiles/ServerUsers.dir/project/src/UsersDatabase.cpp.s
 .PHONY : project/src/UsersDatabase.cpp.s
 
+test_db.o: test_db.cpp.o
+
+.PHONY : test_db.o
+
+# target to build an object file
+test_db.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_db.dir/build.make CMakeFiles/test_db.dir/test_db.cpp.o
+.PHONY : test_db.cpp.o
+
+test_db.i: test_db.cpp.i
+
+.PHONY : test_db.i
+
+# target to preprocess a source file
+test_db.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_db.dir/build.make CMakeFiles/test_db.dir/test_db.cpp.i
+.PHONY : test_db.cpp.i
+
+test_db.s: test_db.cpp.s
+
+.PHONY : test_db.s
+
+# target to generate assembly for a file
+test_db.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_db.dir/build.make CMakeFiles/test_db.dir/test_db.cpp.s
+.PHONY : test_db.cpp.s
+
 test_server.o: test_server.cpp.o
 
 .PHONY : test_server.o
@@ -422,6 +462,7 @@ help:
 	@echo "... ServerUsers"
 	@echo "... client"
 	@echo "... echo_server"
+	@echo "... test_db"
 	@echo "... test_parser"
 	@echo "... test_server"
 	@echo "... client.o"
@@ -445,6 +486,9 @@ help:
 	@echo "... project/src/UsersDatabase.o"
 	@echo "... project/src/UsersDatabase.i"
 	@echo "... project/src/UsersDatabase.s"
+	@echo "... test_db.o"
+	@echo "... test_db.i"
+	@echo "... test_db.s"
 	@echo "... test_server.o"
 	@echo "... test_server.i"
 	@echo "... test_server.s"
